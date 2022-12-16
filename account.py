@@ -10,9 +10,10 @@ account_router = Blueprint('account_router',
 
 @account_router.route('/register', methods=['GET', 'POST'])
 def register():
+    # GET
     if request.method == 'GET':
         return render_template('register1.html')
-    
+    # POST
     name = request.form.get('name' , None)
     email = request.form.get('email' , None)
     password = request.form.get('pass' , None)
