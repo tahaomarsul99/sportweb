@@ -1,0 +1,94 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Register - Sports</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="RegisterC10.CSS">
+</head>
+<body>
+<div class='header'>
+<div class="menu-open"><i class="fa-solid fa-bars"></i></div>
+<div class='menu'>
+    <ul>
+        <li><a href='Home.html'>Home</a></li>
+        <li><a href='Sports.html'>Sports</a></li>
+        <li><a href='Contact Us.html'>Contact</a></li>
+        <li><a href='Login.html'>Account</a></li>
+    </ul>
+</div>
+<div class="logo">
+    <img src="/img/logo.png" alt="Sports" class="logo-img">
+    <h1>DTHSport</h1></div>
+</div>
+<div class="continer">
+    <div class="img-con">
+        <img src="/img/register.png" alt="">
+    </div>
+    <div class="txt-con">
+        <h3>Register</h3>
+        <p class='pr'>Please Type Your Informtion</p>
+        <div class="form">
+            <form class="register-form" action="/register">
+            <div class='formm'>
+            <div>
+                <label for="name">First Name <b>*</b></label>
+                <input id="name-first" type="text" placeholder="First Name" name="first name"/>
+            </div>
+            <div>
+                <label for="name">Middle Name <b>*</b></label>
+                <input id="name-mid" type="text" placeholder="Middle Name" name="middle name"/>
+            </div>
+            <div>
+                <label for="name">Last Name <b>*</b></label>
+                <input id="name-last" type="text" placeholder="Last Name" name="last name"/>
+            </div>
+        </div>
+             <div class="formm et">
+                <div class="form-email">
+              <label>Email <b>*</b></label>
+              <input type="email" placeholder="Email" name="email"/>
+            </div>
+            <div class="form-tel">
+            <label>Phone <b>*</b></label>
+              <input type="tel" placeholder="Phone" name="phone"/>
+            </div>
+            </div>
+            <div class='formm-pass'>
+              <label>Password <b>*</b></label>
+              <input type="password" placeholder="password" name="password"/>
+            </div>
+              <div class='formm'>
+                <div>
+                    <label>Age <b>*</b></label>
+                    <input id="age" type="number" placeholder="Age" name="age"/>
+                </div>
+                <div>
+                    <label>Country <b>*</b></label>
+                    <input id="country" type="text" placeholder="Country" name="country"/>
+                </div>
+                <div>
+                    <label>Gender <b>*</b></label>
+                    <input id="gender" type="text" placeholder="Gender" name="gender"/>
+                </div>
+            </div>
+              <!-- <div class="register-button"><span>Register</span></div> -->
+              <button name="submit" action="submit">Submit</button>
+            </form>
+          </div>
+    </div>
+</div>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;500;700&display=swap" rel="stylesheet"/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"/>
+<script src='https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js'></script>
+
+<script>
+$(function(){$(".menu-open").click(function(){
+    $("body").toggleClass("open-active");
+});
+});
+    </script>
+
+</body>
+</html>

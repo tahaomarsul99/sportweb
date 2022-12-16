@@ -1,0 +1,11 @@
+{
+    "sqltools.connections": [
+        {
+            "previewLimit": 50,
+            "driver": "SQLite",
+            "name": "con",
+            "database": "C:\\Users\\hp\\OneDrive\\Desktop\\cs50\\sportweb\\sport.sql"
+        }
+    ],
+    "sqltools.useNodeRuntime": true
+}
