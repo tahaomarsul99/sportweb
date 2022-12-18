@@ -1,7 +1,7 @@
 from flask import Blueprint, render_template, request, session , redirect, flash
 from werkzeug.security import generate_password_hash, check_password_hash
-from database import db
-
+from cs50 import SQL
+db = SQL('sqlite:///sports.db')
 
 account_router = Blueprint('account_router',
                             __name__,
