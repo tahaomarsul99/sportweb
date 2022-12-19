@@ -60,7 +60,7 @@ a {
   text-decoration: none;
 }
 .img-header {
-  background: url(/img/sports.png);
+  background: url(/static/img/Sports.png);
   height: 400px;
   display: flex;
   align-items: center;

@@ -60,7 +60,7 @@ a {
   text-decoration: none;
 }
 .img-header {
-  background: url(/img/home/1.png);
+  background: url(/static/img/home/1.png);
   height: 400px;
   display: flex;
   align-items: center;
@@ -68,7 +68,7 @@ a {
   justify-content: flex-start;
 }
 .img-header.st2 {
-  background: url(/img/home/5.png);
+  background: url(/static/img/home/5.png);
 }
 .img-header:before {
   content: "";

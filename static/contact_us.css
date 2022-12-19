@@ -61,7 +61,7 @@ a {
   text-decoration: none;
 }
 .img-header {
-  background: url(/img/contactus.png);
+  background: url(/static/img/contactus.png);
   height: 400px;
   display: flex;
   align-items: center;
