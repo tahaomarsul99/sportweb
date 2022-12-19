@@ -1,0 +1,7 @@
+/__pycache__
+/venv
+/flask_sessions
+/.gitignore
+/Sports
+/sports.sql
+/sport3.sql
